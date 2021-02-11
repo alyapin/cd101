@@ -6,5 +6,4 @@ Study repo for FabLab lessons
 2. JavaScript + canvas/webgl
 3. Web UI, db, node
 
-
 ![Pic](https://bipbap.ru/wp-content/uploads/2017/09/510549_gallery.world_.jpg)
