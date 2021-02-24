@@ -1,4 +1,4 @@
-
+from statistics import mean
 
 if __name__ == '__main__':
     try:
@@ -19,6 +19,9 @@ if __name__ == '__main__':
         except ValueError as err:
             print("This is not year, try again")
         composers.append(info)
+    avg = []
     for i in range(number):
         duration = int(composers[i].split(" ")[3]) - int(composers[i].split(" ")[2])
+        avg.append(duration)
         print(f'First Name: {composers[i].split(" ")[0]}, Last Name: {composers[i].split(" ")[1]}, Age:  {duration}')
+    print(f'Average duration of life of give composers is {mean(avg)}')
