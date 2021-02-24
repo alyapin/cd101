@@ -24,4 +24,4 @@ if __name__ == '__main__':
         duration = int(composers[i].split(" ")[3]) - int(composers[i].split(" ")[2])
         avg.append(duration)
         print(f'First Name: {composers[i].split(" ")[0]}, Last Name: {composers[i].split(" ")[1]}, Age:  {duration}')
-    print(f'Average duration of life of give composers is {mean(avg)}')
+    print(f'Average duration of life of given composers is {mean(avg)}')
