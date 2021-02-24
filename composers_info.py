@@ -12,7 +12,7 @@ if __name__ == '__main__':
         info = ' '.join([item for item in info.split(" ") if item != ''])
         if len(info.split(" ")) != 4:
             print('Number of parameters is not 4')
-            break
+            exit(1)
         try:
             birth = int(info.split(" ")[2])
             death = int(info.split(" ")[3])
