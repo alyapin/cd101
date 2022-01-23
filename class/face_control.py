@@ -23,8 +23,8 @@ if __name__ == '__main__':
         else:
             print("I didn't get it, so continue") 
 
-    avg = []
+    avg = 0
     for age, name in zip(ages, names):
         print(f'Name is {name}, age is {age}')
-        avg.append(age)
+        avg += age
     print(f'Average age is {avg // len(ages)}')
