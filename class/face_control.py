@@ -29,4 +29,3 @@ if __name__ == '__main__':
         avg += age
     print(f'Average age is {avg // len(ages)}')
     print(1)
-    print(2)
