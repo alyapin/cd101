@@ -36,3 +36,4 @@ if __name__ == '__main__':
     print(6)
     print(7)
     print(8)
+    print(9)
