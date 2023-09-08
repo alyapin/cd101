@@ -30,3 +30,5 @@ if __name__ == '__main__':
     print(f'Average age is {avg // len(ages)}')
     print(1)
     print(2)
+    print(3)
+    print(4)
